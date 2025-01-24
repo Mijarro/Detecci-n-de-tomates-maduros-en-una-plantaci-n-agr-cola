@@ -35,6 +35,16 @@ El resultado final es una imagen procesada donde los tomates maduros están clar
 
 ---
 
+## **Citación del Conjunto de Datos**  
+Tsironis V., Bourou S., Stentoumis C. (2020). *tomatOD: Evaluation of object detection algorithms on a new real-world tomato dataset.*  
+ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences.  
+Disponible en: [https://github.com/up2metric/tomatOD](https://github.com/up2metric/tomatOD)  
+
+
+---
+---
+
+
 # English
 # **Computer Vision - UNIR**  
 # **Group Activity: Exploring Spatial and Morphological Filters in Real-World Scenarios**
@@ -70,5 +80,13 @@ After filtering the regions using spatial and morphological operations, contours
 
 ### **Final Result**  
 The final output is a processed image where ripe tomatoes are clearly identified. Each tomato is numbered and marked with a rectangle, accompanied by a detailed record of its characteristics.  
+
+---
+
+## **Dataset Citation** 
+Tsironis V., Bourou S., Stentoumis C. (2020). *tomatOD: Evaluation of object detection algorithms on a new real-world tomato dataset.*  
+ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences.  
+Available at: [https://github.com/up2metric/tomatOD](https://github.com/up2metric/tomatOD)  
+
 
 ---
