@@ -35,44 +35,6 @@ El resultado final es una imagen procesada donde los tomates maduros están clar
 
 ---
 
-
-# **Visión Artificial - UNIR**  
-# **Actividad grupal: exploración de filtros espaciales y morfológicos en escenarios reales.**
-
----
-
-#### **Autores del Notebook**  
-- **Jara Arroyo, Miguel**  
-- **García Mayorga, Ismael**  
-- **Parra Idarraga, Óscar**  
-- **Caballero Cortes, Marcos**  
-
----
-
-## **Detección de Tomates Maduros en Plantaciones**  
-Este notebook tiene como objetivo la detección de tomates maduros en una plantación a partir de imágenes extraídas de un video. Para lograrlo, se emplean **filtros espaciales** y **filtros morfológicos** que permiten, respectivamente, mejorar la calidad de las imágenes y refinar las regiones detectadas. Las imágenes utilizadas provienen del dataset disponible en [datasetninja.com/tomatod](https://datasetninja.com/tomatod).  
-
----
-
-## **Metodología**
-
-### **Filtrado Espacial**  
-En este paso se utiliza un **filtro espacial**. Las imágenes son cargadas en formato RGB y suavizadas mediante un filtro gaussiano, lo que permite reducir el ruido y facilitar los pasos posteriores. Posteriormente, se realiza una conversión al espacio de color HSV para aislar mejor los colores asociados a los tomates maduros.  
-
-### **Detección de Color**  
-Se trabaja sobre las imágenes en el espacio de color HSV. Se definen rangos específicos para el color rojo, considerando tanto tonos intermedios como extremos. A partir de estos rangos, se generan máscaras binarias que permiten segmentar las regiones rojas en la imagen.  
-
-### **Filtrado Morfológico**  
-En este paso se aplican **filtros morfológicos**. Se utilizan operaciones de cierre (dilatación seguida de erosión) para eliminar pequeñas imperfecciones o áreas de ruido, y operaciones de apertura (erosión seguida de dilatación) para perfeccionar las formas de las regiones detectadas. Esto se realiza utilizando un kernel elíptico.  
-
-### **Detección y Análisis de Contornos**  
-Una vez filtradas las regiones mediante operaciones espaciales y morfológicas, se identifican los contornos de las áreas segmentadas. Sobre estas regiones se dibujan rectángulos alrededor de cada tomate detectado. Además, se calculan y muestran las características de cada tomate, como su posición, dimensiones y área.  
-
-### **Resultado Final**  
-El resultado final es una imagen procesada donde los tomates maduros están claramente identificados. Cada tomate está numerado y marcado con un rectángulo, acompañado de un registro detallado con sus características.  
-
----
-
 # English
 # **Computer Vision - UNIR**  
 # **Group Activity: Exploring Spatial and Morphological Filters in Real-World Scenarios**
