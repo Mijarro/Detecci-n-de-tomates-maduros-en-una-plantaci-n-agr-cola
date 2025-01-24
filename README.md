@@ -1,4 +1,3 @@
-# Español
 # **Visión Artificial - UNIR**
 # **Actividad grupal: exploración de filtros espaciales y morfológicos en escenarios reales.**
 
@@ -45,7 +44,7 @@ Disponible en: [https://github.com/up2metric/tomatOD](https://github.com/up2metr
 ---
 
 
-# English
+# English:
 # **Computer Vision - UNIR**  
 # **Group Activity: Exploring Spatial and Morphological Filters in Real-World Scenarios**
 
