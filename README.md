@@ -32,6 +32,9 @@ Una vez filtradas las regiones mediante operaciones espaciales y morfológicas, 
 ### Resultado Final
 El resultado final es una imagen procesada donde los tomates maduros están claramente identificados. Cada tomate está numerado y marcado con un rectángulo, acompañado de un registro detallado con sus características.
 
+![image](https://github.com/user-attachments/assets/a553dbdf-ef3e-4555-8568-9bb0caea6e46)
+
+
 ---
 
 ## **Citación del Conjunto de Datos**  
@@ -79,6 +82,8 @@ After filtering the regions using spatial and morphological operations, contours
 
 ### **Final Result**  
 The final output is a processed image where ripe tomatoes are clearly identified. Each tomato is numbered and marked with a rectangle, accompanied by a detailed record of its characteristics.  
+
+![image](https://github.com/user-attachments/assets/a553dbdf-ef3e-4555-8568-9bb0caea6e46)
 
 ---
 
